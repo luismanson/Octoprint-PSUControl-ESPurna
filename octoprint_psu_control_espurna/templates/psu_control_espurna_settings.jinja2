@@ -1,0 +1,27 @@
+<!-- ko ifnot: settings.plugins.psucontrol -->
+<span class="help-inline label label-important">This plugin requires <a href="https://plugins.octoprint.org/plugins/psucontrol/" target="_blank">PSU Control</a> in order to function. It can be installed from the Plugin Manager.</span>
+<!-- /ko -->
+
+<form class="form-horizontal">
+    <h4>General</h4>
+    <div class="control-group">
+        <label class="control-label">Address</label>
+        <div class="controls">
+            <input type="text" class="input" data-bind="value: settings.plugins.psu_control_espurna.address" placeholder="127.0.0.1">
+        </div>
+    </div>
+    <div class="control-group">
+        <label class="control-label">Relay</label>
+        <div class="controls">
+            <input type="number" min="1" class="input-mini" data-bind="value: settings.plugins.psu_control_espurna.relay">
+            <br/>
+        </div>
+    </div>
+
+    <div class="control-group">
+        <label class="control-label">API Key</label>
+        <div class="controls">
+            <input type="text" class="input" data-bind="value: settings.plugins.psu_control_espurna.apikey">
+        </div>
+    </div>
+</form>
