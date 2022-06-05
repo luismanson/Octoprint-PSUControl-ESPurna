@@ -56,7 +56,7 @@ class PSUControl_Espurna(octoprint.plugin.StartupPlugin,
         params.update(cmd)
         response = None
         try:
-            response = requests.get(url, params=params)
+            response = requests.get(url, params=params, timeout='15')
         except (
                 requests.exceptions.InvalidURL,
                 requests.exceptions.ConnectionError
