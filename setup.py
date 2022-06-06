@@ -15,7 +15,7 @@ plugin_package = "octoprint_psucontrol_espurna"
 plugin_name = "Octoprint-PSUControl-ESPurna"
 
 # The plugin's version. Can be overwritten within OctoPrint's internal data via __plugin_version__ in the plugin module
-plugin_version = "0.1.1"
+plugin_version = "0.1.2"
 
 # The plugin's description. Can be overwritten within OctoPrint's internal data via __plugin_description__ in the plugin
 # module
