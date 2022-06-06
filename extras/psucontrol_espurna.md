@@ -1,7 +1,7 @@
 ---
 layout: plugin
 
-id: psu_control_espurna
+id: psucontrol_espurna
 title: Octoprint-PSUControl-ESPurna
 description: Plugin to control devices with ESPurna firmware
 authors:
